@@ -3,7 +3,7 @@ const connect = require('./connection');
 const student = require('./routes/student');
 const app = express();
 connect();
-app.use(express.json());
+
 app.use(student);
 
 
